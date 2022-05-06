@@ -1,0 +1,153 @@
+.section-break {
+    background-color: #10446c;
+    height: 3px;
+    max-width: 90%;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.product-section-photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    row-gap: 15px;
+    column-gap: 10px;
+}
+
+.product-section {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.product-section-photo-container {
+    max-width: 100%;
+    background-color: white;
+}
+
+.product-section-photo {
+    max-width: 100%;
+}
+
+.product-section-text {
+    margin: auto;
+}
+
+.product-section-text-heading {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.product-section-text-detail {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+}
+
+.page {
+    max-width: 85%;
+    margin: auto;
+}
+
+.product-section-text-button {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #10446c;
+    padding: 10px;
+    padding-inline: 40px;
+    border-radius: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    display: block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.location-section-text-button {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #10446c;
+    padding: 10px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    display: block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.product-section-text-button:hover, .location-section-text-button:hover {
+    background-color: #165b8f;
+    opacity: 90%;
+}
+
+.product-section-text-button-container {
+    align-items: center;
+}
+
+.product-section-photo-grid-link {
+    text-decoration: none;
+}
+
+.hover-heading {
+    text-decoration: none;
+    color:#10446c;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.hover-detail {
+    color: black;
+    margin-top: 0px;
+    margin-inline: 20px;
+    padding: 10px;
+}
+
+.hover-content {
+    min-height: 190px;
+}
+
+.photo-hover {
+    transition: 0.3s;
+}
+
+.photo-hover:hover {
+    box-shadow: 6px 7px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.location-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 20px;
+}
+
+.location-section-text {
+    margin: auto;
+    margin-inline: 2vw;
+}
+
+.location-section-photo {
+    max-width: 100%;
+}
+
+.location-section-text-heading {
+    text-align: center;
+}
+
+.location-section-text-detail {
+    font-size: 18px;
+    text-align: center;
+}

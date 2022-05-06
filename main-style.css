@@ -1,0 +1,250 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #10446c;
+    box-shadow: 1px 4px 16px 8px rgba(0, 0, 0, 0.26);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+    z-index: 100;
+}
+
+.hamburger {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.hamburger:hover {
+    background-color: #0c3250;
+}
+
+.ham {
+    background-color: white;
+    margin-top: 3px;
+    width: 100%;
+    height: 3px;
+    border-radius: 1px;
+}
+
+.logo-container {
+    max-width: 60px;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.home, .about, .contact, .product {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(60, 64, 68, 0.71);
+    transition: 0.3s;
+}
+
+.home:hover, .about:hover, .contact:hover, .product:hover {
+    background-color: #0c3250;
+}
+
+.topnav-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.topnav {
+    padding-top: 80px;
+    display: none;
+    background-color: #10446c;
+}
+
+.topnav-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: #10446c;
+    border-top: 1px solid #0c3250;
+    border-bottom: 1px solid #0c3250;
+    transition: 0.3s;
+}
+
+.topnav-menu:hover {
+    background-color: #0c3250;
+}
+
+.hero-img {
+    background-color: rgb(182, 182, 182);
+    position: relative;
+    background-image: url("HCL Glass banner 2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-heading {
+    color: white;
+    margin: 0px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30vh;
+    text-shadow: 2px 2px 0px rgba(74, 74, 74, 1);
+}  
+
+.hero-heading-sub {
+    color: white;
+    margin: 0px;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 30vh;
+    text-shadow: 2px 2px 0px rgba(74, 74, 74, 1);
+}
+
+.footer {
+    background-color: #10446c;
+    box-shadow: 1px -4px 16px 8px rgba(0, 0, 0, 0.26);
+}
+
+.footer {
+    background-color: #10446c;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.footer-about, .footer-product, .footer-contact {
+    color: white;
+    padding-left: 40px;
+}
+
+.footer-about-header, .footer-product-header, .footer-contact-header {
+    font: 30px;
+    color: white;
+}
+
+.footer-list {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    text-align: left;
+    padding: 3px;
+}
+
+.list-marker {
+    margin: 5px;
+}
+
+.footer-list:hover {
+    background-color: #0a2b44;
+}
+
+.copyright, .copyright-text {
+    margin: 0px;
+    background-color:#0a2b44;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 830px) {
+    .hamburger {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-right: 15px;
+    }
+
+    .topnav {
+        margin-top: 0px;
+        z-index: 200;
+        border: 2px solid #0c3250;
+    }
+
+    .home, .about, .contact, .product {
+        display: none;
+    }
+
+    .product-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .hero-heading {
+        font-size: 8vw;
+    }
+
+    .hero-heading-sub {
+        font-size: 3.5vw;
+    }
+
+    .product-section-text-heading {
+        font-size: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .product-section-photo-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .product-section-text-button, .location-section-text-button {
+        font-size: 16px;
+    }
+
+    .hover-content {
+        min-height: 0px; 
+    }
+
+    .location-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .copyright-text {
+        font-size: 2vw;
+    }
+
+    .footer {
+        background-color: #10446c;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .hover-content {
+        min-height: 120px; }
+}
+
+@media only screen and (min-width: 830px){
+    .topnav-menu {
+        display: none;
+}
+    .topnav {
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,252 @@
+.page {
+    max-width: 85%;
+    margin: auto;
+}
+
+.contact-info {
+    padding: 1%;
+    padding-top: 3%;
+    background-color: #10446c;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.contact-heading {
+    color:white;
+    text-align: center;
+    margin: 0px;
+}
+
+.contact-detail {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.line, .facebook, .tel, .email {
+    color: #10446c;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 40px;
+    column-gap: 15px;
+}
+
+.white {
+    background-color: white;
+}
+
+.icon-container {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 80px;
+}
+
+.icon {
+    max-width: 100%;
+}
+
+.link-facebook {
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.qr-container {
+    max-width: 50%;
+    background-color: #10446c;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qr-code {
+    max-width: 100%;
+    border-radius: 10px;
+    border: #10446c;
+}
+
+.location-heading {
+    color: black;
+    text-align: center;
+}
+
+.location-detail {
+    text-align: center;
+    font-size: 18px;
+}
+
+.location-container {
+    margin: 10px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: white;
+}
+
+.branch-heading {
+    color: #10446c;
+    text-align: center;
+}
+
+.branch-detail {
+    font-size: 16px;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    min-height: 350px;
+    border: none;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.tonwa-map, .hq-map {
+    margin: auto;
+    max-width: 100%;
+}
+
+.contact-info {
+    padding: 1%;
+    padding-top: 3%;
+    background-color: #10446c;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.contact-heading {
+    color:white;
+    text-align: center;
+    margin: 0px;
+}
+
+.contact-detail {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.line, .facebook, .tel, .email {
+    color: #10446c;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 40px;
+    column-gap: 15px;
+}
+
+.icon-container {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 80px;
+}
+
+.icon {
+    max-width: 100%;
+}
+
+.link-facebook {
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.qr-container {
+    max-width: 50%;
+    background-color: #10446c;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qr-code {
+    max-width: 100%;
+    border-radius: 10px;
+    border: #10446c;
+}
+
+.section-break {
+    background-color: #10446c;
+    height: 3px;
+    max-width: 90%;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.white {
+    background-color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: 20px;
+        row-gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .hamburger {
+        display: inline-flex;
+        margin-right: 15px;
+    }
+
+    .home, .about, .contact, .product {
+        display: none;
+    }
+
+    .hero-heading {
+        font-size: 8vw;
+    }
+
+    .hero-heading-sub {
+        font-size: 3.5vw;
+    }
+
+    .copyright-text {
+        font-size: 2vw;
+    }
+
+    .location-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin: 20px;
+        row-gap: 15px;
+    }
+
+    .footer {
+        background-color: #10446c;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+    }
+}
