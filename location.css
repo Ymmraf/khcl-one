@@ -8,77 +8,6 @@ body {
     background-color: #f8f8f8;
 }
 
-header {
-    background-color: #10446c;
-    box-shadow: 1px 4px 16px 8px rgba(0, 0, 0, 0.26);
-    display: flex;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 3px;
-    z-index: 100;
-}
-
-.hamburger {
-    display: none;
-    background-color: grey;
-    width: 30px;
-    height: 30px;
-}
-
-.logo-container {
-    max-width: 80px;
-}
-
-.logo {
-    max-width: 100%;
-}
-
-.home, .about, .contact, .product {
-    font-size: 20px;
-    text-decoration: none;
-    padding: 20px;
-    color: white;
-    text-shadow: 1px 1px 1px rgba(60, 64, 68, 0.71);
-    transition: 0.3s;
-}
-
-.home:hover, .about:hover, .contact:hover, .product:hover {
-    background-color: #0c3250;
-}
-
-.hero-img {
-    background-color: rgb(182, 182, 182);
-    position: relative;
-    background-image: url("HCL Glass banner 2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.hero-heading {
-    color: white;
-    margin: 0px;
-    font-size: 60px;
-    text-align: center;
-    padding-top: 30vh;
-    text-shadow: 2px 2px 0px rgba(74, 74, 74, 1);
-}  
-
-.hero-heading-sub {
-    color: white;
-    margin: 0px;
-    font-size: 28px;
-    text-align: center;
-    padding-bottom: 30vh;
-    text-shadow: 2px 2px 0px rgba(74, 74, 74, 1);
-}
-
 .page {
     max-width: 85%;
     margin: auto;
@@ -245,10 +174,6 @@ header {
 }
 
 @media only screen and (max-width: 830px) {
-    .hamburger {
-        display: inline-flex;
-        margin-right: 15px;
-    }
 
     .home, .about, .contact, .product {
         display: none;
