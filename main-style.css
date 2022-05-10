@@ -128,7 +128,7 @@ header {
     background-color: #10446c;
     box-shadow: 1px -4px 16px 8px rgba(0, 0, 0, 0.26);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     column-gap: 30px;
     width: 100%;
 }
@@ -181,6 +181,24 @@ header {
 
 .footer-about {
     display: flex;
+}
+
+.footer-space {
+    width: 100%;
+    background-color: transparent;
+}
+
+.back-to-top {
+    font: 20px;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.back-to-top-container {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: auto;
 }
 
 .copyright, .copyright-text {
