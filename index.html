@@ -20,10 +20,10 @@
                     </a>
                 </div>
                 <div class="menu">
-                    <a href="#" class="home">สินค้าและบริการ</a>
-                    <a href="#" class="contact">ติดต่อ</a>
-                    <a href="#" class="about">ที่ตั้งร้านค้า</a>
-                    <a href="#" onclick='hamburgerClick()'>
+                    <a href="#product-section" class="home">สินค้าและบริการ</a>
+                    <a href="#contact-section" class="contact">ติดต่อ</a>
+                    <a href="#location-section" class="about">ที่ตั้งร้านค้า</a>
+                    <a href="javascript:void(0)" onclick='hamburgerClick()'>
                         <div class="hamburger">
                         <div class="ham topping"></div>
                         <div class="ham middle"></div>
@@ -33,10 +33,10 @@
                 </div>
         </header>
         
-        <div class="topnav" id="topnav">           
-                <a href="#" class="topnav-menu">สินค้าและบริการ</a>
-                <a href="#" class="topnav-menu">ติดต่อ</a>
-                <a href="#" class="topnav-menu">ที่ตั้งร้านค้า</a>
+        <div class="topnav" id="topnav">
+                <a href="#product-section" class="topnav-menu" onclick='drophamClick()'>สินค้าและบริการ</a>
+                <a href="#contact-section" class="topnav-menu" onclick='drophamClick()'>ติดต่อ</a>
+                <a href="#location-section" class="topnav-menu" onclick='drophamClick()'>ที่ตั้งร้านค้า</a>
         </div>
 
         <div class="hero-container">
@@ -49,7 +49,7 @@
         </div>
         
         <div class="page">
-            <div class="product-section">
+            <div class="product-section" id="product-section">
                 <div class="product-section-text">
                     <h1 class="product-section-text-heading">สินค้าและบริการ</h1>
                     <p class="product-section-text-detail">ห้างหุ้นส่วนจำกัด กระจกฮั้วเชียงล้ง จำหน่ายกระจกหลายขนาด หลายความหนา กระจกลามิเนต รับตัดกระจกลงไซส์ อลูมิเนียม แผ่นยิปซัม อะไหล่ต่าง ๆ ราคาถูก</p>
@@ -111,7 +111,7 @@
                         </div>
                 </div>
             </div>
-            <div class="section-break"></div>
+            <div class="section-break" id="contact-section"></div>
         
             <div class="contact-info">
                 <h1 class="contact-heading">ติดต่อเรา</h1>
@@ -168,7 +168,7 @@
             </div>
         </div>
 
-        <div class="section-break"></div>
+        <div class="section-break" id="location-section"></div>
 
         <div>
             <h1 class="location-heading">ที่ตั้งร้านค้า</h1>
@@ -223,17 +223,11 @@
                     </div>
                 </div>
             </div>
-        
-            <div class="footer-product">
-                <h3 class="footer-product-header">สินค้าและบริการ</h3>
-            </div>
 
-            <div class="footer-contact">
-                <h3 class="footer-contact-header">ติดต่อเรา</h3>
-            </div>
         </footer>
         <div class="copyright">
             <p class="copyright-text">Copyright © 2022 Hua Chiang Long Limited Partnership</p>
         </div>
+
     </body>
 </html>

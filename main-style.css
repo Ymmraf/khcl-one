@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Prompt', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -199,8 +200,11 @@ header {
 
     .topnav {
         margin-top: 0px;
-        z-index: 200;
+        z-index: 50;
         border: 2px solid #0c3250;
+        position: fixed;
+        left: 0px;
+        right: 0px;
     }
 
     .home, .about, .contact, .product {

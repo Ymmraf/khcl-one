@@ -11,7 +11,9 @@ function hamburgerClick() {
   }
 }
 
-
+function drophamClick() {
+  document.getElementById("topnav").style.display = "none"
+}
 
 function myFunction() {
     var x = document.getElementById("myLinks");
